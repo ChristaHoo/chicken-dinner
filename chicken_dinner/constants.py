@@ -73,7 +73,7 @@ true_false = {"false": False, "true": True}
 
 asset_map = json.load(open(DICTIONARY_PATH, "r"))
 
-BASE_URL = "https://api.playbattlegrounds.com"
+BASE_URL = "https://api.pubg.com"
 SHARD_URL = BASE_URL + "/shards/"
 STATUS_URL = BASE_URL + "/status"
 TOURNAMENTS_URL = BASE_URL + "/tournaments"
